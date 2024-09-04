@@ -1,0 +1,107 @@
+.footer-title{
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.social-icons-footer{
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icons-footer a {
+  font-size: 1.3em;
+  padding-left: 20px;
+  color: black;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.social-icons-footer a:hover {
+  color: white;
+}
+.social-icons-footer a:hover svg {
+  transform: translateY(-10px);
+}
+.Datenschutz-btn, .impressum-btn {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Datenschutz-btn:hover, .impressum-btn:hover {
+  color: white;
+}
+
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .footer-title{
+    font-size: 14px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons-footer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .social-icons-footer a {
+    font-size: 1.3em;
+  }
+  .button-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
+
+/* CSS-Regeln für größere Mobiltelefone und Tablets im Hochformat */
+@media (min-width: 600px) and (max-width: 767px) {
+  .footer-title{
+    font-size: 17px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons-footer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .social-icons-footer a {
+    font-size: 1.6em;
+  }
+  .button-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+}
+
+/* CSS-Regeln für Tablets im Querformat und kleinere Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-title{
+    font-size: 17px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-icons-footer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .social-icons-footer a {
+    font-size: 1.6em;
+  }
+  .button-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+}

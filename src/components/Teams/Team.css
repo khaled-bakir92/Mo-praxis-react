@@ -1,0 +1,257 @@
+*{
+  font-family: 'Jaldi', Helvetica ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
+.section3 {
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.cardRow {
+  justify-content: center;
+}
+
+.teams .large-card .teams-card .card-image img {
+  width: 250px;
+}
+/* mediaquery für andere große oder löchen */
+.large-card {
+  margin-left: -90px; 
+  margin-bottom: 28px;
+  transition: transform 0.3s ease ; 
+}
+.large-card:hover {
+  transform: scale(1.1);
+}
+
+.teams .card {
+  border: none;
+}
+
+.teams .card .card-image img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.teams .moh-card .card-image img,
+.teams .ulrike-card .card-image img {
+  width: 341px;
+}
+.teams-card{
+  overflow: hidden;
+}
+.large-card .teams-card {
+  transition: transform 0.3s ease;
+}
+.large-card:hover .teams-card {
+  transform: scale(1.1);
+}
+
+
+.teams .mita-card .card-image img {
+  width: 150px;
+}
+
+.teams .moh-card .card-body h3,
+.teams .ulrike-card .card-body h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.teams .mita-card .card-body h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.teams .moh-card .card-body p,
+.teams .ulrike-card .card-body p {
+  font-size: 14px;
+}
+
+.teams .mita-card .card-body p {
+  font-size: 12px;
+}
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .large-card {
+    margin-left: 0px; 
+  }
+  .klein-card{
+    width: 50%;
+  }
+  .teams .mita-card .card-body h3 {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .teams .mita-card .card-body p {
+    font-size: 10px;
+  }
+  .team .title {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+/* CSS-Regeln für größere Mobiltelefone und Tablets im Hochformat */
+@media (min-width: 600px) and (max-width: 767px) {
+  .large-card {
+    margin-left: 0px; 
+  }
+  .teams .large-card .teams-card .card-image img {
+    width: 225px;
+  }
+  .teams .mita-card .card-body h3 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .teams .mita-card .card-body p {
+    font-size: 12px;
+  }
+  .team .title {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+
+/* CSS-Regeln für Tablets im Querformat und kleinere Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .large-card {
+    margin-left: 0px; 
+  }
+  .teams .large-card .teams-card .card-image img {
+    width: 235px;
+  }
+  .teams .mita-card .card-body h3 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .teams .mita-card .card-body p {
+    font-size: 12px;
+  }
+  .team .title {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1222px) {
+  .large-card {
+    margin-left: -72px; 
+  }
+}
+
+/* Ärtzte style */
+
+.lebenslauf {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Stellt sicher, dass der Container die gesamte Höhe des Bildschirms einnimmt */
+}
+
+.cvBox {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.profile {
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.profile-image {
+  width: 306px;
+  height: 457px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.profile-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.profile-name {
+  font-size: 1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.career .section-title {
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.career-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.career-item {
+  margin-bottom: 20px;
+}
+
+.career-item .career-year {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .cvBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile {
+    margin-right: 0;
+  }
+  .profile-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .profile-caption{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .career {
+    padding-left: 10px;
+  }
+  .career .section-title {
+    font-size: 17px;
+  }
+  .career-item .career-year {
+    font-size: 15px;
+  }
+  .career-desc {
+    font-size: 13px;
+  }
+
+}

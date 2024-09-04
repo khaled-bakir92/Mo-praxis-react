@@ -1,0 +1,220 @@
+* {
+  font-family: 'Jaldi', Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.home {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: url(/images/PHOTO-2023-12-14-22-19-24%202.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
+.main h2 {
+  color: #434b5e;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #434b5e;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: #434b5e;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.kontakt-btn {
+  color: #f0f0f0;
+  background-color: #b2c7fc;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.kontakt-btn:hover {
+  background-color: #b2c7fc;
+  color: #434b5e;
+}
+
+.social-icons a {
+  color: #434b5e;
+  font-size: 1.7em;
+  padding-right: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.social-icons a:hover svg {
+  transform: translateY(-10px);
+}
+
+
+
+@media (max-width: 599px) {
+  .main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url(/images/main-img/mobile.png) no-repeat center center;
+  }
+  .main h2 {
+    color: #434b5e;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .main h3 {
+    color: #434b5e;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .kontakt-btn {
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .kontakt-btn:hover {
+    background-color: #b2c7fc;
+    transform: scale(1.1);
+  }
+
+  .social-icons a {
+    color: #434b5e;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .main h2 {
+    color: #434b5e;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+
+  .main h3 {
+    color: #434b5e;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .kontakt-btn {
+    font-size: 15px;
+    border-radius: 8px;
+  }
+
+  .kontakt-btn:hover {
+    background-color: #b2c7fc;
+    transform: scale(1.1);
+  }
+
+  .social-icons a {
+    color: #434b5e;
+    font-size: 24px;
+    padding-right: 20px;
+  }
+}
+
+/* CSS-Regeln für Tablets im Querformat und kleinere Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    background: url(/images/main-img/tablet.png) no-repeat center center;
+  }
+  .main h2 {
+    color: #434b5e;
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+
+  .main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #434b5e;
+    font-size: 1.9em;
+    font-weight: 600;
+  }
+
+  .main h3 {
+    color: #434b5e;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .kontakt-btn {
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+  .kontakt-btn:hover {
+    background-color: #b2c7fc;
+    transform: scale(1.1);
+  }
+
+  .social-icons a {
+    color: #434b5e;
+    font-size: 25px;
+    padding-right: 20px;
+  }
+}
+
+

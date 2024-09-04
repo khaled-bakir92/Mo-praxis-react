@@ -1,0 +1,169 @@
+.pic3, .pic5, .pic1,.pic7, .pic2, .pic6, .pic4, .pic8 {
+  margin-top: 76px;
+}
+
+.pic3 img, .pic5 img, .pic1 img, .pic7 img, .pic2 img, .pic6 img, .pic4 img, .pic8 img {
+
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.next-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.next-button a {
+  text-decoration: none;
+}
+.description {
+  padding-left: 150px;
+  padding-right: 100px;
+}
+.description .infocard{
+  font-size: 1.0em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #888888;
+}
+/* .description .leistungtitle1 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+} */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+  margin-top: 40px;
+}
+.kotaktjob-icons{
+  display: flex;
+  flex-direction: column;
+}
+.icon-style {
+  color: inherit; 
+  text-decoration: none;
+  margin-right: 8px; 
+  font-size: 1.25rem; 
+}
+.kotaktjob-icons a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem; 
+  color: inherit; 
+  text-decoration: none; 
+}
+.lastPrevious {
+  display: none; 
+}
+
+.lastnext {
+  display: none;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+.infocard-title{
+  font-size: 29px;
+  font-weight: 600;
+}
+.next-button a {
+  color: inherit;
+}
+.next-button a:hover {
+  color: #b2c7fc;
+}
+
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pic3 img, .pic5 img, .pic1 img, .pic7 img, .pic2 img, .pic6 img, .pic4 img, .pic8 img {
+
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+  }
+  .description .infocard{
+    font-size: 13px;
+  }
+  .infocard-title{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .section-content {
+    font-size: 13px;
+  }
+  .next-button a {
+    font-size: 13px;
+  }
+}
+
+/* CSS-Regeln für größere Mobiltelefone und Tablets im Hochformat */
+@media (min-width: 600px) and (max-width: 767px) {
+  .description {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .description .infocard{
+    font-size: 15px;
+  }
+  .infocard-title{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .section-content {
+    font-size: 15px;
+  }
+  .next-button a {
+    font-size: 15px;
+    
+  }
+}
+
+/* CSS-Regeln für Tablets im Querformat und kleinere Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .description .infocard{
+    font-size: 17px;
+  }
+  .infocard-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .section-content {
+    font-size: 17px;
+  }
+  .next-button a {
+    font-size: 17px;
+  }
+}

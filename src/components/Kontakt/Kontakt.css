@@ -1,0 +1,273 @@
+.cardKomponent {
+  justify-content: center;
+}
+.kontakt-container{
+  justify-content: center;
+  display: flex;
+}
+/* Standardstil für Bilder in KontaktCard */
+.kontakt-card-image {
+  width: 117px;
+  height: 117px;
+  object-fit: cover;
+}
+
+/* Spezieller Stil für die letzte Karte in KontaktCard */
+.kontakt-card-image-last {
+  width: 229px;
+  height: 278px;
+  object-fit: cover;
+}
+.kontakt-karte {
+  transition: transform 0.3s ease;
+}
+.kontakt-karte:hover {
+  transform: scale(1.1);
+}
+.text-center {
+  background-color: #fff;
+  width: 19.25em;
+  height: 20em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  align-items: center;
+  text-align: center;
+  transition: 0.7s ease;
+}
+
+.info {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+
+}
+.kontakt-karte .info .title {
+  font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .kontakt .title{
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .kontakt .title-section {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .kontakt-karte {
+    transition: transform 0.3s ease;
+  }
+  .kontakt-karte:hover {
+    transform: scale(1.1);
+  }
+  .text-center {
+    background-color: #fff;
+    width: 17.5em;
+    height: 17.5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+  .kontakt-card-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .kontakt-card-image-last {
+    width: 229px;
+    height: 237px;
+    object-fit: cover;
+  }
+  .kontakt-karte .info .title-p {
+    font-size: 14px;
+  }
+}
+/* CSS-Regeln für größere Mobiltelefone und Tablets im Hochformat */
+@media (min-width: 600px) and (max-width: 767px) {
+  .kontakt .title{
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .kontakt .title-section {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .text-center {
+    background-color: #fff;
+    width: 15.5em;
+    height: 16.5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+  .kontakt-card-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .kontakt-card-image-last {
+    width: 239px;
+    height: 221px;
+    object-fit: cover;
+  }
+  .kontakt-karte .info .title-p {
+    font-size: 13px;
+  }
+}
+
+/* CSS-Regeln für Tablets im Querformat und kleinere Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .kontakt .title{
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .kontakt .title-section {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .text-center {
+    background-color: #fff;
+    width: 17.5em;
+    height: 17.5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+  .kontakt-card-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .kontakt-card-image-last {
+    width: 239px;
+    height: 221px;
+    object-fit: cover;
+  }
+  .kontakt-karte .info .title-p {
+    font-size: 13px;
+  }
+}
+/* @media (min-width: 992px) and (max-width: 1030px) {
+  .kontakt .title{
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .kontakt .title-section {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .text-center {
+    background-color: #fff;
+    width: 15.5em;
+    height: 17em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+  .kontakt-card-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .kontakt-card-image-last {
+    width: 239px;
+    height: 221px;
+    object-fit: cover;
+  }
+  .kontakt-karte .info .title-p {
+    font-size: 13px;
+  }
+} */
+@media (min-width: 1031px) and (max-width: 1100px) {
+  .kontakt .title{
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .kontakt .title-section {
+    display: flex;
+    justify-content: left;
+    color: #434b5e;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .text-center {
+    background-color: #fff;
+    width: 15.5em;
+    height: 17em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s ease;
+  }
+  .kontakt-card-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .kontakt-card-image-last {
+    width: 239px;
+    height: 221px;
+    object-fit: cover;
+  }
+  .kontakt-karte .info .title-p {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,31 @@
+.privacy-description {
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.privacy-info{
+  font-size: 30px;
+  font-weight: 600;
+  color: #b2c7fc;
+}
+.kontaktjob-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+.kontaktjob-icons a:hover{
+  color: #b2c7fc;
+}
+.list-disc a {
+  color: inherit;
+}
+.textcard a {
+  color: inherit;
+}
+/* CSS-Regeln für Mobiltelefone im Hochformat */
+@media (max-width: 599px) {
+  .privacy-description {
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
